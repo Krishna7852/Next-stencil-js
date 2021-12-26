@@ -1,3 +1,8 @@
+/* Added Tailwind directives to the project */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
