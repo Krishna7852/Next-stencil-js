@@ -1,0 +1,7 @@
+// Following Methodology: https://github.com/saadeghi/daisyui
+.btn {
+    @apply text-red-500 py-5;
+    &-primary {
+        @apply text-green-500 py-5;
+    }
+}

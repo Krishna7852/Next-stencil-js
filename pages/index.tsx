@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
 import './../register-web-components';
 const Home: NextPage = () => {
   return (
@@ -12,7 +12,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <core-test />
-      <h1 className="text-3xl text-red-500 font-bold underline">Hello NextJS!</h1>
+      {/* <div className={styles.main}>Module css Test </div> */}
+      <h1 className="text-3xl btn font-bold underline">Hello NextJS!</h1>
     </div>
   );
 };
